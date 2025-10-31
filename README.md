@@ -54,3 +54,17 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/huongdan/Ui-Redz-V2/
     loadstring(game:HttpGet("https://link.trwxz.com/LS-Zee-Hub-VIP"))()
   end
   })
+  
+  AddButton(Tab4o, {
+     Name = "hiru hub",
+    Callback = function()
+	  loadstring(game:httpget("https://pastefy.app/ybm1shap/raw"))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "blue x hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
