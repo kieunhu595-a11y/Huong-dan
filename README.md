@@ -1,9 +1,9 @@
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/huongdan/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
        local Window = MakeWindow({
          Hub = {
-         Title = "s1990332",
-         Animation = "Youtube: s1990332"
+         Title = "quan roblox",
+         Animation = "Youtube: quan Roblox"
          },
         Key = {
         KeySystem = false,
@@ -35,11 +35,22 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "quantum",
+     Name = "quantum hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+  end
+  })
+  
   AddButton(Tab2o, {
      Name = "speed hub",
     Callback = function()
-	  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "zee hub",
+    Callback = function()
+    loadstring(game:HttpGet("https://link.trwxz.com/LS-Zee-Hub-VIP"))()
+  end
+  })
